@@ -2,10 +2,13 @@ public class Point{
   private double x;
   private double y;
 
-  //public  Point(point P)
+  public  Point(Point P) {
+    x = P.x;
+    y = P.y;
+  }
   public Point(double X, double Y){
-    x=X;
-    y=Y;
+    x = X;
+    y = Y;
   }
 
   public double getX(){
